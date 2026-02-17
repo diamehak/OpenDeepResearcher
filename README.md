@@ -204,7 +204,7 @@ This project is licensed under the MIT License.
 
 ## 👤 Author
 
-Dia Mehak
+**Dia Mehak**
 AI / ML Developer | Agentic AI Enthusiast  
 
 ---
