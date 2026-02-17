@@ -8,7 +8,7 @@ class SearcherAgent:
     Searcher Agent: Uses Tavily API to retrieve relevant, up-to-date content for each subquestion.
     """
 
-    def __init__(self, api_key: str = "ENTER_YOUR_TAVILY_API_KEY_HERE"):
+    def __init__(self, api_key: str = "ENTER_YOUR_TAVILY_API_KEY_HERE"): # Replace with your Tavily API key
         self.api_key = api_key
         self.base_url = "https://api.tavily.com/search"
 
