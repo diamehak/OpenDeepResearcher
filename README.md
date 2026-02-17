@@ -107,15 +107,26 @@ http://127.0.0.1:1234
 
 ---
 
-## 🔑 Environment Variables
+## 🔑 API Key Configuration
 
-Create a `.env` file in the project root:
+This project uses the Tavily Search API for retrieving research sources.
+
+Before running the project, open the file:
 
 ```
-TAVILY_API_KEY=your_api_key_here
+agents/searcher_agent.py
 ```
 
----
+Locate the API key placeholder:
+
+```
+ENTER_YOUR_TAVILY_API_KEY_HERE
+```
+
+Replace it with your actual Tavily API key.
+
+You can obtain a Tavily API key from: https://tavily.com
+
 
 ## ▶️ Usage
 
